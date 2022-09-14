@@ -70,7 +70,7 @@ let words = ["purple","blue","orange","green","yellow"]
 
 let colorStr = "Some colors I like are "
 
-for(i = 0; i < words.length; i++){
+for(let i = 0; i < words.length; i++){
     if(i % 2 && i != 0 && i != words.length){
         colorStr += `${words[i]}, `
     } else if(i === words.length){
@@ -81,5 +81,6 @@ for(i = 0; i < words.length; i++){
 console.log(colorStr)
 
 //--------------------------------------------
-// answer here
+// 
 //--------------------------------------------
+// how is green the answer if words .length is 5? 
